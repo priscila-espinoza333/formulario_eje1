@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Registro</title>
+</head>
+<body>
+    <h1> Formulario Registro</h1>
+
+    <div>
+        <label for="input_texto">Nombre * </label>
+        <input type="text" name="input_texto" id="input_texto"> 
+    </div> <br>
+    <div>
+        <label for="input_texto">Apellido * </label>
+        <input type="text" name="input_texto" required id="input_texto"> 
+    </div>
+    <div> <br>
+        <label for="input_texto">Email * </label>
+        <input type="text" name="input_texto" required id="input_texto"> 
+    </div>
+    <div> <br>
+        <label for="input_contra">Contraseña * </label>
+        <input type="password" name="input_contra" required id="input_contra">
+    </div>
+    <div> <br>
+        <label for="input_contra">Confirmar Contraseña * </label>
+        <input type="password" name="input_contra" required id="input_contra">
+    </div>
+    <div> <br>
+        <label for="input_fecha">Fecha Nacimiento</label>
+        <input type="date" name="input_fecha" id="input_fecha">
+    </div>
+    <div> <br>
+        <input type="radio" name="genero" value="mujer" id="input_mujer" >
+        <label for="input_mujer">Mujer</label> <br>
+
+        <input type="radio" name="genero" value="hombre" id="input_hombre">
+        <label for="input_hombre">Hombre</label> <br>
+
+        <input type="radio" name="genero" value="no-binario" id="input_no-binario">
+        <label for="input_no-binario">No-binario</label> <br>
+
+        <input type="radio" name="genero" value="prefiero_no_responder" id="input_prefiero_no_responder">
+        <label for="input_prefiero_no_responder">Prefiero No Responder</label> <br>
+    </div>
+    <p> Indique una breve descripción de usted </p>
+    <div>
+        <textarea id="imput_textarea" name="comentario" cols="30" rows="4"></textarea> <!--cols columnas y rows filas-->
+    </div> <br>
+    <div>
+        <label for="input_lenguaje_favorito"> Lenguaje Favorito</label>
+        <select name="lenguaje_favorito" >
+            <option>JavaScrip</option>
+            <option>Python</option>
+            <option>PHP</option>
+            <option>JAva</option>
+            <option>C++</option>
+            <option>C</option>
+        </select>
+    </div>
+    <div>
+        <input type="checkbox" name="mayor_edad" id="input_edad">
+        <label for="input_edad">Si, me gustaría recibir actualizaciones periodicas</label>
+    </div>
+    <div> <br>
+        <input type="submit" value="Crear cuanta">
+    </div>
+
+    <p> * Campos Requeridos</p>
+
+
+
+
+
+    
+</body>
+</html>
