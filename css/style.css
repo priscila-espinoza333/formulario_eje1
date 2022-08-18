@@ -1,0 +1,10 @@
+.gris{
+    font-size: 100px;
+    background: grey;
+}
+
+.texto{
+    text-align: left
+    font-weight: bold;
+    font-size: 40px;
+}
